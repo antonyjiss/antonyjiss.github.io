@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DA Protfolio Album</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="formal_abstarcts.html">Formal Abstracts</a></li>
+							<li><a href="about_me.html">About me</a></li>
+							<li><a href="credentials.html">Credentials</a></li>
+              <li><a href="my_favorites.html">My Favorites</a></li>
+						</ul>
+					
+					</nav>
+
+			
+
+							<!-- Main -->
+<div id="main" class="alt">
+
+	<!-- One -->
+	<section id="one">
+	  <div class="inner">
+		<header class="major">
+		  <h1>My Album</h1>
+		</header>
+		
+		<!-- Gallery of images -->
+		<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    .gallery-item {
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s ease-out;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      transform: scale(1);
+      transition: transform 0.2s ease-out;
+    }
+
+    .gallery-item img:hover {
+      transform: scale(1.1);
+    }
+
+    .expanded-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .expanded-image img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/pic1.png" alt="Pic1">
+    </div>
+    <div class="gallery-item">
+      <img src="images/pic2.png" alt="Pic 2">
+    </div>
+    <div class="gallery-item">
+      <img src="images/pic4.jpg" alt="Pic 3">
+    </div>
+    <div class="gallery-item">
+      <img src="images/pic22.png" alt="Pic 4">
+    </div>
+  </div>
+
+  <div class="expanded-image">
+    <img id="expanded-image-src">
+  </div>
+
+  <script>
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const expandedImage = document.querySelector('.expanded-image');
+    const expandedImageSrc = document.querySelector('#expanded-image-src');
+
+    galleryItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        expandedImageSrc.setAttribute('src', item.querySelector('img').getAttribute('src'));
+        expandedImage.style.display = 'flex';
+      });
+    });
+
+    expandedImage.addEventListener('click', () => {
+      expandedImage.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
+
+  
+  
+		  
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
